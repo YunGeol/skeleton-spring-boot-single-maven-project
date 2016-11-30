@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package pe.lygirl.skeleton.tomcat.web;
+package pe.lygirl.skeleton.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import pe.lygirl.skeleton.tomcat.service.HelloWorldService;
+import pe.lygirl.skeleton.service.HelloWorldService;
 
 @Controller
 public class SampleController {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package pe.lygirl.skeleton.tomcat;
+package pe.lygirl.skeleton;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -38,9 +38,9 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import pe.lygirl.skeleton.tomcat.NonAutoConfigurationSampleTomcatApplicationTests.NonAutoConfigurationSampleTomcatApplication;
-import pe.lygirl.skeleton.tomcat.service.HelloWorldService;
-import pe.lygirl.skeleton.tomcat.web.SampleController;
+import pe.lygirl.skeleton.service.HelloWorldService;
+import pe.lygirl.skeleton.NonAutoConfigurationSampleTomcatApplicationTests.NonAutoConfigurationSampleTomcatApplication;
+import pe.lygirl.skeleton.web.SampleController;
 
 import static org.junit.Assert.assertEquals;
 

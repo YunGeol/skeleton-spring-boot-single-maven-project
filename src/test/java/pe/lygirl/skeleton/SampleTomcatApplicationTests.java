@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package pe.lygirl.skeleton.tomcat;
+package pe.lygirl.skeleton;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

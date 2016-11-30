@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package pe.lygirl.skeleton.tomcat.service;
+package pe.lygirl.skeleton.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

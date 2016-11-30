@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package pe.lygirl.skeleton.tomcat;
+package pe.lygirl.skeleton;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
