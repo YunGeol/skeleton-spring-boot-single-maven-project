@@ -19,6 +19,7 @@ spring-boot, maven, embedded tomcat, web application project
 프로젝트 생성 방법
 -------------
 1. spring-boot-sample-tomcat-archetype 를 이용해 프로젝트 초기 생성함.
+
  ```
  ## 콘솔에서 ...
  mvn archetype:generate \
@@ -29,7 +30,9 @@ spring-boot, maven, embedded tomcat, web application project
         -Dversion=0.0.1 \
         -Dpackage=pe.lygirl.skeleton
  ```
+
 2. 1번의 결과로 만들어진 프로젝트 디렉토리 구조
+
  ```
  >$ cd skeleton-spring-boot-single-maven-project
  >$ tree
@@ -61,7 +64,9 @@ spring-boot, maven, embedded tomcat, web application project
                              ├── NonAutoConfigurationSampleTomcatApplicationTests.java
                              └── SampleTomcatApplicationTests.java
  ```
+
 3. running ...
+
  ```
  # runnig all test cases
  >$ mvn test
@@ -69,4 +74,5 @@ spring-boot, maven, embedded tomcat, web application project
  # running web application
  >$ mvn spring-boot:run
  ```
+
 4.
