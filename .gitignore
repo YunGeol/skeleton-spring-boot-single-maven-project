@@ -1,0 +1,13 @@
+# IntelliJ project config files
+*.iml
+.idea/
+
+# Eclipse project config files
+.project
+.classpath
+.setting/
+
+# etc..
+*.log
+target/
+.DS_Store
